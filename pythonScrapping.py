@@ -35,17 +35,13 @@ wait.until(EC.presence_of_element_located((By.ID, 'gs_res_ccl')))
 articulos = driver.find_elements(By.XPATH, '//*[@id="gs_res_ccl"]//h3')
 secondsPause = 1
 data = []
-titleArticles = []  # Inicializa una lista vacía para almacenar los titulos
-linkArticles = []   # Inicializa una lista vacía para almacenar el enlace del articulo
-arrayCitadoPor = [] # Inicializa una lista vacía para almacenar la cantidad de citas referentes al articulo
+
 
 for i in range(len(articulos)):
     title = articulos[i].text
-    titleArticles.append(title)
-    print("Título:", titleArticles[i])
+
     try:
         link = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, f'//*[@id="gs_res_ccl_mid"]/div[{i + 1}]/div[2]/div[3]/a[3]'))).get_attribute("href")
-        linkArticles.append(link)
         print(link)
     except Exception as e:
         print("Error al encontrar el elemento:", str(e))
@@ -64,7 +60,6 @@ for i in range(len(articulos)):
     else:
         num_citas = 0  # Establece 0 si no se encuentra ningún número
 
-    arrayCitadoPor.append(num_citas)
     print("Citado por:", num_citas)
 
     # Interactuar con "Citar"
