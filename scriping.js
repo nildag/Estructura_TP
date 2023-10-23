@@ -35,12 +35,12 @@ const { Parser } = require('json2csv');
     console.log("Citado por:", num_citas);
 
     try {
-      const enlaceCitar = await page.waitForXPath(`//*[@id="gs_res_ccl_mid"]/div[${div_index}]/div[2]/div[3]/a[2]`);
-      console.log("Enlace Citar:", await enlaceCitar.getProperty('href').jsonValue());
-      await enlaceCitar.click();
-      const secondsPause = randomInt(10, 15);
-      await sleep(secondsPause);
-
+        const enlaceCitar = await page.waitForXPath(`//*[@id="gs_res_ccl_mid"]/div[${div_index}]/div[2]/div[3]/a[2]`);
+        console.log("Enlace Citar:", await enlaceCitar.getProperty('href').jsonValue());
+        const secondsPause = randomInt(10, 15);
+        await sleep(secondsPause);
+        enlaceCitar.click();
+        
       try {
         const enlaceBibTeX = await page.waitForXPath('//*[@id="gs_citi"]/a[1]');
         console.log("Enlace BibTeX:", await enlaceBibTeX.getProperty('href').jsonValue());

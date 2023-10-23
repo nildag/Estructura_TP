@@ -46,6 +46,12 @@
               "target": "Package",
               "version": "[1.11.54, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.14.1, )"
@@ -53,6 +59,10 @@
             "SeleniumExtras.WaitHelpers": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "WordCloudSharp": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [

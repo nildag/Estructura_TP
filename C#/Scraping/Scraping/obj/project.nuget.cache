@@ -1,16 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "XIuMM4bGOUFnbc1eWpScDouGxJBf0LYu6KWCMVXS8WMYg5Xoa/+3ex4Cwv1tH9o5Qa3TzRbRmE11WuYpdH7rLA==",
+  "dgSpecHash": "PRiCl43OI1MWmBg5+qgU+Y48JuDYTgRQDr2XgXlVmCIQa7Hne6uqSuB2dqP6upMOU86uGgmIQ+zBY8/8I9CAFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\Scraping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.3\\microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\selenium.webdriver\\4.14.1\\selenium.webdriver.4.14.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\wordcloudsharp\\1.1.0\\wordcloudsharp.1.1.0.nupkg.sha512"
   ],
   "logs": []
 }

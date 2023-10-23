@@ -10,8 +10,19 @@
     <ItemGroup>
       <PackageReference Include="CsvHelper" Version="30.0.1" />
       <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+      <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
       <PackageReference Include="Selenium.WebDriver" Version="4.14.1" />
       <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+      <PackageReference Include="WordCloudSharp" Version="1.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="System.Windows.Forms.DataVisualization">
+        <HintPath>bin\Debug\net7.0\System.Windows.Forms.DataVisualization.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

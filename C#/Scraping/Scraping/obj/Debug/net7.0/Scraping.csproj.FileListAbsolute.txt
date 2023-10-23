@@ -54,3 +54,4 @@ C:\Users\Usuario\Desktop\Estructura_TP\C#\Scraping\Scraping\obj\Debug\net7.0\ref
 C:\Users\Usuario\Desktop\Estructura_TP\C#\Scraping\Scraping\obj\Debug\net7.0\Scraping.pdb
 C:\Users\Usuario\Desktop\Estructura_TP\C#\Scraping\Scraping\obj\Debug\net7.0\Scraping.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Estructura_TP\C#\Scraping\Scraping\obj\Debug\net7.0\ref\Scraping.dll
+C:\Users\Usuario\Desktop\Estructura_TP\C#\Scraping\Scraping\bin\Debug\net7.0\WordCloudSharp.dll

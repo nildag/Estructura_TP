@@ -9,10 +9,19 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using HtmlAgilityPack;
 using SeleniumExtras.WaitHelpers;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 
 class Program
 {
-    static void Main(string[] args)
+    /*static void Main(string[] args)
+    {
+        
+    }*/
+    
+    static void Scraping()
     {
         ChromeOptions options = new ChromeOptions();
        
@@ -161,4 +170,5 @@ class Program
         var match = regex.Match(bibtexData);
         return match.Success ? match.Groups[1].Value : "";
     }
+    
 }

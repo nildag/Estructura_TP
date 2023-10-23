@@ -10,8 +10,11 @@
         "dependencies": {
           "CsvHelper": "30.0.1",
           "HtmlAgilityPack": "1.11.54",
+          "Microsoft.NETFramework.ReferenceAssemblies": "1.0.3",
           "Selenium.WebDriver": "4.14.1",
-          "SeleniumExtras.WaitHelpers": "1.0.2"
+          "SeleniumExtras.WaitHelpers": "1.0.2",
+          "WordCloudSharp": "1.1.0",
+          "System.Windows.Forms.DataVisualization": "1.0.0.0"
         },
         "runtime": {
           "Scraping.dll": {}
@@ -33,6 +36,12 @@
           }
         }
       },
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net461": "1.0.3"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.3": {},
       "Microsoft.Win32.SystemEvents/7.0.0": {
         "runtime": {
           "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
@@ -98,6 +107,22 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "WordCloudSharp/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/WordCloudSharp.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "System.Windows.Forms.DataVisualization/1.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20.11001"
+          }
+        }
       }
     }
   },
@@ -120,6 +145,20 @@
       "sha512": "sha512-bgB79N4urc4D7hrD4R+Qk6CjPiYOfs6vfXNsmw3nCcfQEQvBQGjfAcl5k/tB1ZP1hA0d7xXs0jK8xAXV36IVUg==",
       "path": "htmlagilitypack/1.11.54",
       "hashPath": "htmlagilitypack.1.11.54.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+      "path": "microsoft.netframework.referenceassemblies/1.0.3",
+      "hashPath": "microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AmOJZwCqnOCNp6PPcf9joyogScWLtwy0M1WkqfEQ0M9nYwyDD7EX9ZjscKS5iYnyvteX7kzSKFCKt9I9dXA6mA==",
+      "path": "microsoft.netframework.referenceassemblies.net461/1.0.3",
+      "hashPath": "microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/7.0.0": {
       "type": "package",
@@ -155,6 +194,18 @@
       "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
       "path": "system.drawing.common/7.0.0",
       "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "WordCloudSharp/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GxVZrLI7tA/814IoXW9D00xhzJZY3YWrcOt1pQhqgsXUMiTjPOIWNmlR/y2YgImerv6kG5Ij8sr5kniHS5OCHg==",
+      "path": "wordcloudsharp/1.1.0",
+      "hashPath": "wordcloudsharp.1.1.0.nupkg.sha512"
+    },
+    "System.Windows.Forms.DataVisualization/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
