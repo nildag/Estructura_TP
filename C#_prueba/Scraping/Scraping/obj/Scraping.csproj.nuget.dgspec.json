@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\Scraping.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#_prueba\\Scraping\\Scraping\\Scraping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\Scraping.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#_prueba\\Scraping\\Scraping\\Scraping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\Scraping.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#_prueba\\Scraping\\Scraping\\Scraping.csproj",
         "projectName": "Scraping",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\Scraping.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#_prueba\\Scraping\\Scraping\\Scraping.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#_prueba\\Scraping\\Scraping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

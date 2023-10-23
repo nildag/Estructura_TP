@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PRiCl43OI1MWmBg5+qgU+Y48JuDYTgRQDr2XgXlVmCIQa7Hne6uqSuB2dqP6upMOU86uGgmIQ+zBY8/8I9CAFg==",
+  "dgSpecHash": "s0lF0lsbCxJlbBoKxcchs9s+wCCWWL7f1olg5PXnVA5xL8l3rGqqhgOfiERebZbpf7gNr4ASyu/wepyxdVdTQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#\\Scraping\\Scraping\\Scraping.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Estructura_TP\\C#_prueba\\Scraping\\Scraping\\Scraping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
