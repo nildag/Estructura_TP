@@ -19,11 +19,11 @@ df_ordenado.head()
 
 # Seleccionar los 10 artículos con más citas
 top_10_citados = df_ordenado.head(10)
-top_10_citados
+print(top_10_citados)
 
 # Crear un nuevo DataFrame con las columnas deseadas
 resultado = top_10_citados[['Citado', 'Año', 'Titulo', 'Revista']]
-resultado
+print(resultado)
 
 # Guardar el resultado en un archivo CSV
 resultado.to_csv('top_10_articulos_citados.csv', index=False)
@@ -44,8 +44,7 @@ resultados_filtrados = resultados[['Titulo', 'URL']]
 resultados_filtrados.to_csv('resultados_palabra_clave.csv', index=False)
 
 print("Se han guardado los resultados en 'resultados_palabra_clave.csv'.")
-resultados_filtrados
-
+print(resultados_filtrados)
 """
 3 - 
 """
@@ -67,7 +66,7 @@ frecuencia_autores = frecuencia_autores.sort_values(by='Frecuencia', ascending=F
 frecuencia_autores.to_csv('autores_frecuencia.csv', index=False)
 
 print("Se ha guardado la frecuencia de los autores en 'autores_frecuencia.csv'.")
-frecuencia_autores
+print(frecuencia_autores)
 
 """
 4 - 

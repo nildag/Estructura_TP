@@ -1,13 +1,14 @@
 # Instala y carga las bibliotecas necesarias
-#install.packages("tm")
-#install.packages("wordcloud")
-#install.packages("ggplot2")
+install.packages("tm")
+install.packages("wordcloud")
+install.packages("colorspace")
+install.packages("ggplot2")
 library(tm)
 library(wordcloud)
 library(ggplot2)
 
 # Cargar el DataFrame desde el archivo CSV
-df <- read.csv('C:/Users/Usuario/Desktop/Estructura_TP/R/web_scraping_citas.csv', stringsAsFactors = FALSE)
+df <- read.csv('C:/Users/Moon/Desktop/Estructura_TP/R/web_scraping_citas.csv', stringsAsFactors = FALSE)
 
 # Ordenar el DataFrame por número de citas en orden descendente
 df_ordenado <- df[order(-df$Citado), ]
