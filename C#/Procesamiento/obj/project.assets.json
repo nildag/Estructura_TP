@@ -37,6 +37,22 @@
           }
         }
       },
+      "ScottPlot/4.1.14": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.6.1"
+        },
+        "compile": {
+          "lib/net5.0/ScottPlot.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/ScottPlot.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Drawing.Common/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -136,6 +152,26 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ScottPlot/4.1.14": {
+      "sha512": "UYOX78BoOvP6N4ZYRcIOjJVKs9VjplUE2yHAgjlvj/Sc5qQ+Z+dN2ODYE0qzwK7Jl1UXxRvCf+74y/nl+698Ww==",
+      "type": "package",
+      "path": "scottplot/4.1.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.txt",
+        "icon.ico",
+        "icon.png",
+        "lib/net461/ScottPlot.dll",
+        "lib/net461/ScottPlot.xml",
+        "lib/net5.0/ScottPlot.dll",
+        "lib/net5.0/ScottPlot.xml",
+        "lib/netstandard2.0/ScottPlot.dll",
+        "lib/netstandard2.0/ScottPlot.xml",
+        "scottplot.4.1.14.nupkg.sha512",
+        "scottplot.nuspec"
+      ]
+    },
     "System.Drawing.Common/7.0.0": {
       "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
       "type": "package",
@@ -192,6 +228,7 @@
     "net7.0": [
       "CsvHelper >= 30.0.1",
       "Microsoft.Win32.SystemEvents >= 7.0.0",
+      "ScottPlot >= 4.1.14",
       "System.Drawing.Common >= 7.0.0",
       "WordCloudCsharp >= 1.0.2"
     ]
@@ -240,6 +277,10 @@
           "Microsoft.Win32.SystemEvents": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "ScottPlot": {
+            "target": "Package",
+            "version": "[4.1.14, )"
           },
           "System.Drawing.Common": {
             "target": "Package",

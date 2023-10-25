@@ -10,6 +10,7 @@ C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\Procesamie
 C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\Procesamiento.pdb
 C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\CsvHelper.dll
 C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\ScottPlot.dll
 C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\WordCloudCsharp.dll
 C:\Users\Moon\Desktop\Estructura_TP\C#\Procesamiento\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll

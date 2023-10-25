@@ -9,6 +9,7 @@ using System.Text.RegularExpressions;
 using WordCloudCsharp;
 using System.Drawing;
 using System.Drawing.Imaging;
+using ScottPlot;
 
 
 class Articulos
@@ -216,15 +217,37 @@ class Program
                 .Draw(contadorPalabras.Keys.ToList(), contadorPalabras.Values.ToList());
 
             // Guardar la imagen en el disco
-            wordcloud.Save("wordcloud.png", ImageFormat.Png);
+            wordcloud.Save("wordcloud.png", System.Drawing.Imaging.ImageFormat.Png);
 
             Console.WriteLine("Nube de palabras generada y guardada en 'wordcloud.png'.");
-        }//csv
 
+            // Obtener la cantidad de artículos por año
+            var conteoAnios = records
+                .GroupBy(record => record.Año)
+                .Select(group => new { Anio = group.Key, Cantidad = group.Count() })
+                .OrderBy(result => result.Anio)
+                .ToList();
 
+            // Crear un arreglo de años, cantidades y posiciones personalizadas
+            var cantidades = conteoAnios.Select(result => (double)result.Cantidad).ToArray();
+            var posiciones = conteoAnios.Select((result, index) => (double)index).ToArray();  // Posiciones personalizadas
 
+            // Crear un objeto Plot
+            var plt = new ScottPlot.Plot(600, 400);
 
-    }//main
+            // Agregar un gráfico de barras al plot con posiciones personalizadas
+            plt.AddBar(cantidades, posiciones);
+
+            // Ajustar los límites del eje para eliminar el espacio por debajo del gráfico de barras
+            plt.SetAxisLimits(yMin: 0);
+
+            // Guardar la imagen en el disco
+            plt.SaveFig("bar_graph.png");
+            Console.WriteLine("Grafico de barras generado y guardado en 'bar_graph.png'.");
+
+        }
+
+    }
 
 
 
