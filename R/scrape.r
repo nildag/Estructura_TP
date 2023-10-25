@@ -19,7 +19,7 @@ driver <- rsDriver(browser = "chrome")
 remote_driver <- driver[["client"]]
 
 # Navega a la página
-remote_driver$navigate("https://scholar.google.com")
+remote_driver$navigate("https://scholar.google.com/scholar?cites=5866269323493626547&as_sdt=2005&sciodt=0,5&hl=es")
 
 
 # Esperar hasta que los resultados de la búsqueda se carguen
