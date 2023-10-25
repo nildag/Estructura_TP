@@ -1,6 +1,7 @@
 require 'csv'
 require 'nokogiri'
 require 'open-uri'
+require 'image-charts'
 
 
 # 1 -
