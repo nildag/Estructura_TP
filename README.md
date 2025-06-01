@@ -5,9 +5,13 @@ Repositorio con scripts en múltiples lenguajes (C#, Python, R, Ruby) para extra
 ## Estructura del Repositorio
 /
 ├── CSharp/ # Proyectos C#
+
 ├── Python/ # Scripts Python
+
 ├── R/ # Código R
+
 ├── Ruby/ # Scripts Ruby
+
 └── README.md # Este archivo
 
 
